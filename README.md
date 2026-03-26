@@ -1,12 +1,117 @@
-# React + Vite
+# Alex Carter Portfolio (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A polished, maintainable personal portfolio website built with **React**, **Vite**, and **Tailwind CSS**.  
+This project is structured for clarity, scalability, and easy customization.
 
-Currently, two official plugins are available:
+## Demo / Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Live demo: _Add your deployment URL here_
+- Screenshot: _Add a screenshot or GIF here_
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18
+- Vite 5
+- Tailwind CSS 3
+- ESLint
+
+## Features
+
+- Single, coherent React + Vite app structure
+- Modular architecture with reusable UI components
+- Clean section-based composition (`Hero`, `About`, `Skills`, `Projects`, `Experience`, `Contact`)
+- Centralized content in a dedicated data layer for easy updates
+- Responsive layout and modern visual style
+- Production-ready build configuration
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm 9+
+
+### Install and Run
+
+```bash
+npm install
+npm run dev
+```
+
+The app will start in development mode (Vite default) and print the local URL in your terminal.
+
+## Available Scripts
+
+- `npm run dev` – Start Vite development server
+- `npm run build` – Create production build in `dist/`
+- `npm run preview` – Preview the production build locally
+- `npm run lint` – Run ESLint checks
+
+## Folder Structure
+
+```text
+.
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── src
+    ├── App.jsx
+    ├── main.jsx
+    ├── index.css
+    ├── assets
+    ├── components
+    │   ├── Badge.jsx
+    │   ├── Container.jsx
+    │   ├── ProjectCard.jsx
+    │   ├── SectionHeading.jsx
+    │   └── SocialLinks.jsx
+    ├── data
+    │   └── siteData.js
+    ├── sections
+    │   ├── AboutSection.jsx
+    │   ├── ContactSection.jsx
+    │   ├── ExperienceSection.jsx
+    │   ├── HeroSection.jsx
+    │   ├── ProjectsSection.jsx
+    │   └── SkillsSection.jsx
+    └── utils
+        └── cn.js
+```
+
+## Customization Guide
+
+All portfolio content is centralized in `src/data/siteData.js`:
+
+- Update profile identity (`name`, `role`, `email`, `location`)
+- Edit hero text and bio
+- Replace project entries and technology tags
+- Add/remove experience timeline entries
+- Update social links
+
+Recommended updates:
+
+1. Replace placeholder project links with real URLs
+2. Swap sample profile data with your own
+3. Add your preferred favicon and open-graph metadata in `index.html`
+
+## Deployment Guide
+
+You can deploy this project to any static hosting platform:
+
+1. Run `npm run build`
+2. Upload the generated `dist/` folder
+
+Common options:
+
+- Vercel
+- Netlify
+- Cloudflare Pages
+- GitHub Pages
+
+## Author / Contact
+
+- Name: _Your Name_
+- Portfolio: _https://your-domain.com_
+- Email: _your-email@example.com_
+- LinkedIn: _https://linkedin.com/in/your-handle_
