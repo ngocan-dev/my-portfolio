@@ -111,7 +111,7 @@ Common options:
 
 ## Author / Contact
 
-- Name: _Your Name_
-- Portfolio: _https://your-domain.com_
-- Email: _your-email@example.com_
-- LinkedIn: _https://linkedin.com/in/your-handle_
+- Name: Ngoc An
+- Portfolio: ___
+- Email: hngocan.forwork@gmail.com
+- LinkedIn: [_https://linkedin.com/in/your-handle_](https://www.linkedin.com/in/kyungdev/)
