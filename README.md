@@ -1,4 +1,4 @@
-# Alex Carter Portfolio (React + Vite)
+#  Portfolio (React + Vite)
 
 A polished, maintainable personal portfolio website built with **React**, **Vite**, and **Tailwind CSS**.  
 This project is structured for clarity, scalability, and easy customization.
